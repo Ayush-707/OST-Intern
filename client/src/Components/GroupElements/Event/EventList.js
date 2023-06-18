@@ -49,7 +49,7 @@ const EventList = () => {
       
 
   return (
-    <div className=" mx-1 border z-10">
+    <div className=" mx-1 z-10">
       {eventData.map((card, index) => (
         <Card
           key={index}

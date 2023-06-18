@@ -47,7 +47,7 @@ const CardList = () => {
       ];
       
   return (
-    <div className=" mx-1 border z-10">
+    <div className=" mx-1 z-10">
       {newsFeedData.map((card, index) => (
         <NewsCard
           key={index}
