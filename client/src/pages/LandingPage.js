@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import BtnGrp from '../Components/BtnGrp'
 import Form from '../Components/Form'
 import StackedCards from '../Components/Blogs/Stack'
+//import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 function LandingPage() {
   return (
     <>
@@ -10,10 +11,10 @@ function LandingPage() {
       <div className='flex'>
       <BtnGrp/>
       <StackedCards/>
-     <div className='ml-auto -mt-16 z-20'>
+     
       <Form/>
       </div>
-      </div>
+      
     
       
       

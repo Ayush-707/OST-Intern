@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 const Header = () => {
 
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ const Header = () => {
 
   return (
     <>
-    <header className="bg-gray-800 sticky top-0 w-full z-30">
+    <header className="bg-gray-800 sticky top-0 w-full z-40">
       
       <nav className="mx-4 px-4 py-2 flex items-center justify-between ">
       <div onClick={handleClick} className='text-white font-semibold text-lg hover:scale-110'>
