@@ -26,7 +26,7 @@ const LoginForm = () => {
   };
 
   return (
-    <div className='absolute pl-2 z-0' style={{marginTop: '-4vh', marginBottom: 'auto', marginLeft: '73.5vw'}}>
+    <div className='pl-2 z-0 fixed' style={{marginTop: '2vh', marginBottom: 'auto', marginLeft: '73.5vw'}}>
     <div className="flex justify-end items-center h-screen mr-2">
       <div className="h-auto" style = {{width: '24vw'}}>
         <div className="bg-gray-200 rounded-lg shadow-lg p-6">

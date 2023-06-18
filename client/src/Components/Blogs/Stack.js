@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ title, description, image }) => {
   return (
-    <a href="/" className="group z-10">
+    <a href="/" className="group z-10" >
       <div className="h-auto rounded-md shadow-md bg-blue-100 flex items-center justify-center transform transition-all duration-300 group-hover:scale-105" style={{width: '20vw'}}>
         <div className="p-4">
         <img
@@ -21,7 +21,7 @@ const Card = ({ title, description, image }) => {
 const CardGrid = () => {
   return (
     
-    <div className='' style={{marginLeft: '32%', marginTop: '4%'}}>
+    <div className='z-20 fixed' style={{marginLeft: '32%', marginTop: '16vh'}}>
         <div className="grid grid-cols-2 gap-4">
       <Card
         title="How to Design a Resume"

@@ -108,7 +108,7 @@ export default function BasicButtonGroup() {
     {/* <span className="text-2xl font-bold text-center ml-64">BLOGS</span> */}
 
     </div>
-    <div className="z-0 bg-white border" style={{width: '30vw'}}>
+    <div className="z-0 bg-white border" style={{width: '30vw', marginTop: '8vh'}}>
 
     {
       jobs && (
